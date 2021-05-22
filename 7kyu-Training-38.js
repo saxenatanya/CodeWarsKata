@@ -1,4 +1,4 @@
-Task
+/* Task
 Coding in function findSimilarity. function accept two parameters: str, a sentence contains some words, separated by spaces; word, a sample word.
 
 Your task is to keep the words that are similar to the sample word, and to remove the other words.
@@ -12,10 +12,10 @@ findSimilarity("bag dog dig dot doog dogs","dog") should return "dog dig"
 findSimilarity("bag dog dig dot doog dogs","dig") should return "dog dig"
 findSimilarity("bag dog dig dot doog dogs","dot") should return "dot"
 findSimilarity("bag dog dig dot doog dogs","god") should return ""
-Hint: Use filter() will make your work easier; If you don't know how to solve the kata, please refer to the examples of lesson. 
+Hint: Use filter() will make your work easier; If you don't know how to solve the kata, please refer to the examples of lesson. */
 
 
-as given in the hint this kata holds the main logic in the examples of the lesson itself.
+//as given in the hint this kata holds the main logic in the examples of the lesson itself.
 
 
 function findSimilarity(str,word){
