@@ -1,5 +1,3 @@
-#CODE WARS KATA
+# CODE WARS KATA
 
-
-
-I will complete a kata everyday and will post the approach that i took here in this repo. This is the start of my journey.
+My solutions to codewars, will post the approach that i took to solve the problems in this repo. 
