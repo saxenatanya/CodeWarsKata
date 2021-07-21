@@ -14,4 +14,10 @@ function stringCounter(inputS, charS){
   return count;
 }
 
+// arr.forEach((ele)=>{
+//   if(ele === charS){
+//     count++;
+//   }
+// })
+
 //inputS.split("").filter(function(elem){return elem === charS}).length;
