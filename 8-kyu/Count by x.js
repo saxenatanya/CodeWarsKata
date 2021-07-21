@@ -17,3 +17,7 @@ for(let i=1;i<=n*x;i++){
   console.log(z);
   return z;
 }
+//works too
+// for (i = 1; i <= n; i++) {
+//         z.push(x * i);
+//     }
