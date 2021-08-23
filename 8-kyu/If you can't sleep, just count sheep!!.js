@@ -9,3 +9,10 @@ var countSheep = function (num){
   for(let i = 1; i <= num; i++) { result+= `${i} sheep...`; }
   return result;
 }
+
+
+// OR
+
+// var countSheep = function (num){
+//   return [...Array(num)].map((v,i) => i + 1 + ' sheep...').join('')
+// }
