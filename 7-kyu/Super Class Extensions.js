@@ -11,16 +11,14 @@ class Animal {
   }
   
   speak() {
-    return this.name + ' makes a noise, '+ this.name +' goes meow.';
+    return this.name + ' makes a noise, ';
   }
 }
 
 class Cat extends Animal {
   constructor(name){
   super(name);  
+    speak() { return super.speak() + this.name + ' goes meow.' }
   }
-  
-  
-//    this.name + ;
-  
+
 }
