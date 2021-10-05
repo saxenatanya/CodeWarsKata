@@ -16,3 +16,7 @@ function decodePass( passArr, bin ){
   console.log(found);
   return found === val ? val : false;
 }
+
+
+// const password = String.fromCharCode( ...s.split(" ").map( s => Number.parseInt(s,2) ) );
+//   return a.includes(password) && password ;
