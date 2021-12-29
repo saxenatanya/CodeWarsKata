@@ -6,9 +6,8 @@
 // maxRedigit(123); // returns 321
 
 var maxRedigit = function(num) {
-  // Do yor magic :)
- var numRev= (num).toString().split('').reverse().join('')
-  return num <= 0 ? null : Number(numRev);
+   if ((num.toString()).length!==3) return null
+ return (num).toString().split('').sort((a,b)=>b-a).join('')*1
 };
 
 // Basic test
