@@ -25,6 +25,11 @@ function strCount(str, letter){
   return count;
 }
 
+// approach 2 
+function strCount(str, letter){  
+  return str.split('').filter(c => c == letter).length;
+}
+
 
 const { assert } = require('chai');
 
