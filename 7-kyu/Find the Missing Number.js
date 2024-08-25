@@ -1,0 +1,33 @@
+// Description:
+// This question is a variation on the Arithmetic Progression kata
+
+// The following was a question that I received during a technical interview for an entry level software developer position.
+//   I thought I'd post it here so that everyone could give it a go:
+
+// You are given an unsorted array containing all the integers from 0 to 100 inclusively. However, one number is missing.
+//   Write a function to find and return this number. What are the time and space complexities of your solution?
+
+
+function missingNo(nums) {
+  const newArr= nums.sort();
+  let missing = new Array();
+
+for (let i = 1; i <= newArr.length; i++) {
+  if (newArr.indexOf(i) == -1) {
+    missing.push(i);
+  }
+}
+  return +missing.toString();
+}
+
+with ES6 
+function missingNo(nums) {
+  return nums.sort((a,b)=>a-b).find((n,i)=> n !== i)-1 || 0
+}
+
+function missingNo(nums) {
+   let arr=nums.sort(function(a,b){return a-b});
+   for(let i=0;i<= arr.length;i++)
+       if(i!=arr[i])
+           return i;    
+}
